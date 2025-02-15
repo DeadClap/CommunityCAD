@@ -3,7 +3,7 @@
 /node_modules
 /public/storage
 /storage/*.key
-/bootstrap/cache
+
 /.env
 /.env.local
 /.env.*.local
@@ -15,9 +15,7 @@
 /storage/framework/views/*.php
 
 # Composer & npm dependencies
-composer.lock
-package-lock.json
-yarn.lock
+
 
 # IDE and OS-specific files
 .idea/
@@ -26,8 +24,3 @@ yarn.lock
 Thumbs.db
 
 # Git Ignore Jetstream & Tailwind Build Files
-public/hot
-public/mix-manifest.json
-public/build
-public/css
-public/js
