@@ -1,0 +1,33 @@
+# Laravel specific ignores
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/bootstrap/cache
+/.env
+/.env.local
+/.env.*.local
+
+# Logs & debugging files
+/storage/logs/*.log
+/storage/framework/cache/*.php
+/storage/framework/sessions/*.php
+/storage/framework/views/*.php
+
+# Composer & npm dependencies
+composer.lock
+package-lock.json
+yarn.lock
+
+# IDE and OS-specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Git Ignore Jetstream & Tailwind Build Files
+public/hot
+public/mix-manifest.json
+public/build
+public/css
+public/js
